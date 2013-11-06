@@ -54,6 +54,17 @@ public class Estocasticos {
         } while (true);
         
         
+        StringBuilder message=new StringBuilder();
+        message.append("***********************************************************\n");
+        message.append("***Esto puede tardar un tiempo se ordenarán 3*"+SIZE_ARRAY+"! vectores**\n" );
+        message.append("*****Al final de la ejecución se almacenará un archivo*****\n");
+        message.append("**llamado 'log.txt'donde encontrarás toda la información***");
+        System.out.println(message);
+        
+        
+        
+        
+        
 
 
         ArrayList<Integer> n = new ArrayList<>();
@@ -271,7 +282,7 @@ public class Estocasticos {
                         + " Columna (2): Conteo de pasos realizados al ordenar el arreglo de la columna (1) con BubbleSort \n"
                         + " Columna (3): Conteo de pasos realizados al ordenar el arreglo de la columna (1) con InsertionSort \n"
                         + " Columna (4): Conteo de pasos realizados al ordenar el arreglo de la columna (1) con BucketSort \n"
-                        + " n-permutaciones: "+SIZE_ARRAY+"\n"
+                        + " n-permutaciones: "+permutationsOfN.size()+"\n"
                         + " numero de buckets: "+NUMBER_BUCKETS+"\n";
 
 
